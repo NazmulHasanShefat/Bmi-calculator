@@ -118,4 +118,10 @@ input{
         font-size: .8rem;
         text-align: center;
     }
+    .result-container{
+        width: 100%;
+     }
+     #result{
+        margin-left:-36px;
+     }
 }
