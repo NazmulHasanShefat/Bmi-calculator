@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.card{
+   margin-top:90px;
+   margin:auto;
+   height: 500px;
+   width: 400px;
+   background-color: #fff;
+   box-shadow: 0 4px 8px 0 rgba(122, 124, 247, 0.37), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   border-radius:12px;
+}
+.app-head{
+    margin-top:40px;
+}
+.app-heading{
+    display: flex;
+    justify-content: center;
+    color:rgb(65, 84, 255);
+    margin-top:30px;
+}
+.app-input-fuld{
+    margin-left: 67px;
+    margin-top:30px;
+    margin-bottom:12px;
+    color: rgb(65, 84, 255);
+}
+#result-btn{
+    margin-left:90px;
+    padding:8px 65px;
+    margin-top:10px;
+    margin-bottom:8px;
+    border:none;
+    outline:none;
+    background-color:rgb(65, 84, 255);
+    color:#fff;
+    transition:.5s;
+}
+#result-btn:hover{
+    background-color: black;
+    color:#fff;
+}
+.app-input-fuld p{
+   font-size: 1.4rem;
+}
+input{
+    font-size:1.4rem;
+}
+.result-container{
+    margin-left:67px;
+}
+#height{
+    padding:8px 0;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    outline:none;
+    border-bottom:1px solid rgb(65, 84, 255);
+}
+#weight{
+    padding:8px 0;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    outline:none;
+    border-bottom:1px solid rgb(65, 84, 255);
+}
+#result{
+    color:rgb(255, 71, 65);
+    margin-top:30px;
+}
+.result-container{
+   width: 100%;
+}
+.heading-image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+}
+.oner-img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.footer-content{
+    margin-top:100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:408px) {
+    .card{
+        width: 280px;
+        margin-top:20px;
+        margin-left:-25px;
+        margin:auto;
+     }
+     input{
+        font-size:1rem;
+    }
+    #result-btn{
+        margin-left:30px;
+    }
+    .app-input-fuld{
+        margin-left: 30px;
+    }
+    .app-head{
+        font-size:1.2rem;
+    }
+    .foot-text{
+        width: 100%;
+        font-size: .8rem;
+        text-align: center;
+    }
+}
